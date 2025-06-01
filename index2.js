@@ -1,6 +1,6 @@
 let answer = +prompt('Enter your degree');
 
-if (answer > -1) {
+if (answer >= -1) {
   if (answer <= 100) {
     if (answer < 50) {
       console.log("فاشل");
